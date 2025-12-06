@@ -31,7 +31,7 @@ if(isset($_GET['id'])) {
 <body>
   <header>
         <a href="<?=$BASE_URL?>" id="logo">
-        <img src="<?=$BASE_URL?>img/aranha_blog.svg" alt="Blog">
+        <img src="<?=$BASE_URL?>img/blog.png" alt="Blog">
         </a>
         <nav>
             <ul id="navbar">
