@@ -19,7 +19,7 @@ if(isset($_GET['id'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheets/stylesheet.css">
+  <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheet/stylesheet.css">
   <link rel="icon" href="./img/blog.png" type="image-x icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

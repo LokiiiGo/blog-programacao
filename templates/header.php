@@ -14,7 +14,7 @@
     <title>Blog de Programação</title>
     <link rel="icon" href="./img/blog.png" type="image-x icon">
     <!--Aplicação CSS-->
-    <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheet/stylesheet.css">
     <!--Google Fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="index.php" class="nav-link">Home</a></li>
+                <li><a href="<?=$BASE_URL?>" class="nav-link">Home</a></li>
                 <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
                 <li><a href="#" class="nav-link">Contato</a></li>
