@@ -235,4 +235,25 @@ $posts = [
         'tags'        => ['Front-End', 'Biblioteca', 'JavaScript'],
         'img'         => 'react.png',
     ],
+    [
+        'id' => 14,
+        'title' => 'O que é um Framework?',
+        'description' => 'É uma estrutura que fornece ferramentas e componentes para a construção de projetos e pode ser aplicado em programação.
+        <br><br>
+        - <strong>Framework em programação: </strong>é um conjunto de bibliotecas, estruturas e classes que podem ser reutilizados para desenvolver aplicações.
+        <br><br>
+        - Define a estrutura do projeto e fornece as ferramentas necessárias para a construção.
+        <br><br>
+        - Permite que os desenvolvedores se concentrem nas partes únicas do projeto.
+        <br><br>
+        - Economiza tempo e evita a repetição de códigos comuns.
+        <br><br>
+        - <strong>Framework em outras áreas: </strong>Pode ser usado para solucionar problemas de forma mais eficiente, otimizar recursos e detectar erros.
+        <br><br>
+        - Pode ser usado para garantir qualidade no projeto e produtividade.
+        <br><br>
+        - Pode ser usado para criar e executar aplicações de software.',
+        'tags' => ['Ferramenta', 'Programação', 'Biblioteca'],
+        'img' => 'framework.png',
+    ],
 ];
