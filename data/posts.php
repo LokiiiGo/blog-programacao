@@ -138,4 +138,41 @@ $posts = [
         'tags' => ['Git', 'Rede Social', 'Plataforma'],
         'img' => 'git-github.jpg',
     ],
+    [
+        'id' => 10,
+        'title' => 'HTML - Criação de Estrutura Esqueleto de um Website',
+        'description' => 'É uma linguagem de computador que define a estrutura e o significado de conteúdo da web. É o bloco de construção mais basica de um website 
+        e é utilizado para estruturar paginas web e o seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, numa lista com marcadores ou usando imagens e tabelas.
+        <br>
+        O HTML utiliza tags, também chamadas de elementos HTML, para informar ao navegador que tipo de estrutura está a ser construida. As tags são identificadas por um sinal de menor que (<) seguido 
+        pelo nome da tag é um sinal de maior que (>).
+        <br>
+        Foi criado por Tim Berners-Lee, um físico britânico, a primeira versão foi publicado em 1991. O World Wide Web Consortium (W3C) é reponsável por manter e desenvolver as especificações do HTML.',
+        'tags' => ['Linguagem de Marcação', 'Tags', 'Navegador'],
+        'img' => 'html.png',
+    ],
+    [
+        'id' => 11,
+        'title' => 'CSS - A Estilização no Website',
+        'description' => 'É a sigla para Cascading Style Sheets, que em português signfica Folhas de Estilo em Cascata. É uma linguagem de marcação que define como os dados são apresentados 
+        no navegador, controlando aspectos como:
+        <br><br>
+        - font-size (tamanho da letra)
+        <br><br>
+        - background (tipo de fundo)
+        <br><br>
+        - text-align (alinhamento do texto)
+        <br><br>
+        - color (cor do texto)
+        <br><br>
+        - margin (margens - espaçamento externo)
+        <br><br>
+        O CSS foi desenvolvido pela W3C (World Wide Web Consortium) em 1996 e permite:
+        <br><br>
+        - Separar o conteúdo estrutural do documento da sua apresentação.
+        <br><br>
+        - Facilitar a manutenção e a consistência visual em páginas web.',
+        'tags' => ['Linguagem de Marcação', 'Estilização'],
+        'img' => 'css.jpg',
+    ],
 ];
