@@ -107,8 +107,8 @@ $posts = [
         'img'         => 'xampp.png',
     ],
     [
-        'id' => 8,
-        'title' => 'Visual Studio Code',
+        'id'          => 8,
+        'title'       => 'Visual Studio Code',
         'description' => 'O VSCode é um editor de código-fonte gratuito, de código aberto e multiplataforma desenvolvido pela Microsoft.
         <br><br>
         - É compatível com Windows, Linux e MAC.
@@ -119,42 +119,42 @@ $posts = [
         <br><br>
         - É uma ferramenta de código-aberto, o que permite que a comunidade a melhore constantemente.
         <br><br>
-        O VSCode é uma das ferramentas mais populares entre programadores e desenvolvedores. A sua popularidade deve-se a vários fatores, como a possibilidade 
+        O VSCode é uma das ferramentas mais populares entre programadores e desenvolvedores. A sua popularidade deve-se a vários fatores, como a possibilidade
         de personalização e o fato de ser gratuito.
         <br><br>
         <a href="https://code.visualstudio.com/">Para instalação do VSCode, clique aqui</a>',
-        'tags' => ['Multiplataforma', 'Ferramenta'],
-        'img' => 'vscode.png',
+        'tags'        => ['Multiplataforma', 'Ferramenta'],
+        'img'         => 'vscode.png',
     ],
     [
-        'id'=> 9,
-        'title' => 'GitHub - Rede social de Programador',
-        'description' => 'Uma plataforma de desenvolvimento colaborativo que aloja projetor na nuvem utilizando o sistemas de controle de versões chamado <strong>Git</strong>. 
+        'id'          => 9,
+        'title'       => 'GitHub - Rede social de Programador',
+        'description' => 'Uma plataforma de desenvolvimento colaborativo que aloja projetor na nuvem utilizando o sistemas de controle de versões chamado <strong>Git</strong>.
         O github ajuda os desenvolvedores a armazenar e administrar o código e fazer o registro de mudança.
         Geralmente, é de código-aberto, o que permite realizar projetos compartilhados e manter o acompanhamento detalhado do usuário.
         <br>
-        Também funciona como uma rede social, conectando os desenvolvedores com os usuários. Como usuário, podem descarregar programas ou aplicativos, e da mesma maneira, colaborar com o 
+        Também funciona como uma rede social, conectando os desenvolvedores com os usuários. Como usuário, podem descarregar programas ou aplicativos, e da mesma maneira, colaborar com o
         desenvolvimento oferecendo melhorias e discutindo as questões que interessam nos foruns temáticos.',
-        'tags' => ['Git', 'Rede Social', 'Plataforma'],
-        'img' => 'git-github.jpg',
+        'tags'        => ['Git', 'Rede Social', 'Plataforma'],
+        'img'         => 'git-github.jpg',
     ],
     [
-        'id' => 10,
-        'title' => 'HTML - Criação de Estrutura Esqueleto de um Website',
-        'description' => 'É uma linguagem de computador que define a estrutura e o significado de conteúdo da web. É o bloco de construção mais basica de um website 
+        'id'          => 10,
+        'title'       => 'HTML - Criação de Estrutura Esqueleto de um Website',
+        'description' => 'É uma linguagem de computador que define a estrutura e o significado de conteúdo da web. É o bloco de construção mais basica de um website
         e é utilizado para estruturar paginas web e o seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, numa lista com marcadores ou usando imagens e tabelas.
         <br>
-        O HTML utiliza tags, também chamadas de elementos HTML, para informar ao navegador que tipo de estrutura está a ser construida. As tags são identificadas por um sinal de menor que (<) seguido 
+        O HTML utiliza tags, também chamadas de elementos HTML, para informar ao navegador que tipo de estrutura está a ser construida. As tags são identificadas por um sinal de menor que (<) seguido
         pelo nome da tag é um sinal de maior que (>).
         <br>
         Foi criado por Tim Berners-Lee, um físico britânico, a primeira versão foi publicado em 1991. O World Wide Web Consortium (W3C) é reponsável por manter e desenvolver as especificações do HTML.',
-        'tags' => ['Linguagem de Marcação', 'Tags', 'Navegador'],
-        'img' => 'html.png',
+        'tags'        => ['Linguagem de Marcação', 'Tags', 'Navegador'],
+        'img'         => 'html.png',
     ],
     [
-        'id' => 11,
-        'title' => 'CSS - A Estilização no Website',
-        'description' => 'É a sigla para Cascading Style Sheets, que em português signfica Folhas de Estilo em Cascata. É uma linguagem de marcação que define como os dados são apresentados 
+        'id'          => 11,
+        'title'       => 'CSS - A Estilização no Website',
+        'description' => 'É a sigla para Cascading Style Sheets, que em português signfica Folhas de Estilo em Cascata. É uma linguagem de marcação que define como os dados são apresentados
         no navegador, controlando aspectos como:
         <br><br>
         - font-size (tamanho da letra)
@@ -172,12 +172,12 @@ $posts = [
         - Separar o conteúdo estrutural do documento da sua apresentação.
         <br><br>
         - Facilitar a manutenção e a consistência visual em páginas web.',
-        'tags' => ['Linguagem de Marcação', 'Estilização'],
-        'img' => 'css.jpg',
+        'tags'        => ['Linguagem de Marcação', 'Estilização'],
+        'img'         => 'css.jpg',
     ],
     [
-        'id' => 12,
-        'title' => 'JS - A Interatividade no Website',
+        'id'          => 12,
+        'title'       => 'JS - A Interatividade no Website',
         'description' => 'É uma liguagem de programação que permite criar páginas web interativas, melhorar a experiência do usuário e implementar itens complexos.
         <br><br>
         - Atualizar feeds de mídia social.
@@ -207,7 +207,32 @@ $posts = [
         - Serverless e computação em nuvem.
         <br><br>
         Os navegadores serão capazes de responder a interações do usuário e alterar o layout do conteúdo da página.',
-        'tags' => ['Linguagem de Programação', 'Front-End', 'Desenvolvimento'],
-        'img' => 'js.png',
+        'tags'        => ['Linguagem de Programação', 'Front-End', 'Desenvolvimento'],
+        'img'         => 'js.png',
+    ],
+    [
+        'id'          => 13,
+        'title'       => 'React - Biblioteca Front-End',
+        'description' => 'É uma biblioteca JavaScript criada pelo Facebook (atual Meta) para criar interface de usuário (UI) em aplicativos Web
+        <br><br>
+        - É uma ferramenta ideal para desenvolvimento front-end.
+        <br><br>
+        - Permite adotar estruturas do HTML e JS em um só código.
+        <br><br>
+        - É baseado em componentes, o que permite criar UIs complexas.
+        <br><br>
+        - A lógica do componente é escrita em JavaScript e não em template.
+        <br><br>
+        - Pode ser usado para criar aplicações móveis, atravéz do React Native.
+        <br><br>
+        Algumas vantagens do React incluem:
+        <br><br>
+        - Permitir criar interface de usuário que pode ser encontrada e acessa em diversos motores de busca.
+        <br><br>
+        - Melhora o processamento de aplicação, o que pode melhorar os resultados do SEOs.
+        <br><br>
+        - Torna o código mais preditivo, mais simples de entender e fácil de depurar.',
+        'tags'        => ['Front-End', 'Biblioteca', 'JavaScript'],
+        'img'         => 'react.png',
     ],
 ];

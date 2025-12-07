@@ -35,7 +35,7 @@ if(isset($_GET['id'])) {
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="index.php" class="nav-link">Home</a></li>
+                <li><a href="<?=$BASE_URL?>" class="nav-link">Home</a></li>
                 <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
                 <li><a href="#" class="nav-link">Contato</a></li>
