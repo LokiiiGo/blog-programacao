@@ -256,4 +256,43 @@ $posts = [
         'tags' => ['Ferramenta', 'Programação', 'Biblioteca'],
         'img' => 'framework.png',
     ],
+    [
+        'id' => 15,
+        'title' => 'O que é Java?',
+        'description' => 'É uma linguagem de programação e plataforma de computação. Foi criado por James Gosling na Sun Microsystems na década de 1990.
+        <br><br>
+        <strong>Características</strong>
+        <br><br>
+        - É uma linguagem orientada a objetos.
+        <br><br>
+        - É multiplataforma, ou seja, pode ser usado em vários sistemas operacionais e dispositivos.
+        <br><br>
+        - Suporta a execução de múltiplas threads.
+        <br><br>
+        <strong>Finalidade</strong>
+        <br><br>
+        - Desenvolvimento de aplicativos móveis e da web
+        <br><br>
+        - Desenvolvimento de software empresarial.
+        <br><br>
+        - Desenvolvimento de dispositivos da Internet das Coisas (IOT).
+        <br><br>
+        - Desenvolvimento de jogos.
+        <br><br>
+        - Desenvlvimento de microdados.
+        <br><br>
+        - Desenvolvimento de aplicações distribuidas e com base na Cloud.
+        <br><br>
+        <strong>Vantagens</strong>
+        <br><br>
+        - É uma escolha popular entre desenvolvedores.
+        <br><br>
+        - É uma linguagem versátil.
+        <br><br>
+        - É uma linguagem transferível, podendo ser usado entre plataformas e dispositivos.
+        <br><br>
+        - É uma linguagem centrada em rede.',
+        'tags' => ['Plataforma', 'Back-end'],
+        'img' => 'java.png',
+    ],
 ];
