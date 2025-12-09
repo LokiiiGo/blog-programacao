@@ -191,7 +191,7 @@ $posts = [
         <br><br>
         - Torna o código mais preditivo, mais simples de entender e fácil de depurar.',
         'tags'        => ['Front-End', 'Biblioteca', 'JavaScript'],
-        'img'         => 'react.png',
+        'img'         => 'react.png', 
     ],
 
     // MySQL
