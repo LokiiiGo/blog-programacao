@@ -1,8 +1,13 @@
 # Blog de Programação
 
- - É um site de blog , onde o usuário sem conhecimento prévio poderá aprender sobre Linguagens de Programação e a Lógica de Programação.
+<img src="./img/background-blog.png">
 
-  # Requisito
- - Instalar ou ter instalado XAMPP ou Wampserver pra ter acesso ao projeto.
- - Ativar apache e MySQL (se estiver trabalhando com banco de dados)
+## Descrição
+
+Um site educativo de blog onde usuários iniciantes podem aprender sobre Linguagens de Programação e Lógica de Programação de forma prática e acessível.
+
+## Requisitos
+
+- XAMPP ou Wampserver instalado
+- Apache ativado
  
