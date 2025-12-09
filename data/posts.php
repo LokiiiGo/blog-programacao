@@ -236,8 +236,8 @@ $posts = [
         'img'         => 'react.png',
     ],
     [
-        'id' => 14,
-        'title' => 'O que é um Framework?',
+        'id'          => 14,
+        'title'       => 'O que é um Framework?',
         'description' => 'É uma estrutura que fornece ferramentas e componentes para a construção de projetos e pode ser aplicado em programação.
         <br><br>
         - <strong>Framework em programação: </strong>é um conjunto de bibliotecas, estruturas e classes que podem ser reutilizados para desenvolver aplicações.
@@ -253,12 +253,12 @@ $posts = [
         - Pode ser usado para garantir qualidade no projeto e produtividade.
         <br><br>
         - Pode ser usado para criar e executar aplicações de software.',
-        'tags' => ['Ferramenta', 'Programação', 'Biblioteca'],
-        'img' => 'framework.png',
+        'tags'        => ['Ferramenta', 'Programação', 'Biblioteca'],
+        'img'         => 'framework.png',
     ],
     [
-        'id' => 15,
-        'title' => 'O que é Java?',
+        'id'          => 15,
+        'title'       => 'O que é Java?',
         'description' => 'É uma linguagem de programação e plataforma de computação. Foi criado por James Gosling na Sun Microsystems na década de 1990.
         <br><br>
         <strong>Características</strong>
@@ -292,7 +292,7 @@ $posts = [
         - É uma linguagem transferível, podendo ser usado entre plataformas e dispositivos.
         <br><br>
         - É uma linguagem centrada em rede.',
-        'tags' => ['Plataforma', 'Back-end'],
-        'img' => 'java.png',
+        'tags'        => ['Plataforma', 'Back-end'],
+        'img'         => 'java.png',
     ],
 ];
