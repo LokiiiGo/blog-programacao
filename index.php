@@ -20,6 +20,7 @@
     <div id="title-container">
       <h1>Blog de Programação</h1>
       <p>Autor: Lucas Bruno Calle Chambi</p>
+      <p>Blog em desenvolvimento...</p>
     </div>
     <div id="posts-container">
       <?php foreach ($posts as $post): ?>
