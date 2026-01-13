@@ -156,8 +156,6 @@ $posts = [
         'img'         => 'PHP.png',
     ],
 
-    // C++ - em breve
-
     // Bootstrap
     [
         'id'          => 7,
@@ -322,5 +320,47 @@ $posts = [
         - Pode ser usado para criar e executar aplicações de software.',
         'tags'        => ['Ferramenta', 'Programação', 'Biblioteca'],
         'img'         => 'framework.png',
+    ],
+
+    [
+        'id' => 16,
+        'title' => 'TailwindCSS - Framework CSS',
+        'description' => 'Tailwind CSS é um framework utilitário que permite criar designs personalizados diretamente no HTML, 
+        utilizando classes pré-definidas para estilização rápida e eficiente. 
+        <br>
+        Ele promove a criação de interfaces responsivas e modernas, facilitando o desenvolvimento front-end.',
+        'tags' => ['Framework', 'CSS'],
+        'img' => 'tailwindcss.png',
+    ],
+    [
+        'id' => 17,
+        'title' => 'Laravel - Framework PHP',
+        'description' => 'O Laravel é um framework PHP de código aberto que oferece uma estrutura robusta para desenvolver aplicações web modernas.
+        Ele utiliza o padrão MVC (Model-View-Controller) e oferece recursos como ORM, migrações de banco de dados, testes automatizados e entre outros.
+        O Laravel é amplamente utilizado por desenvolvedores para criar aplicações escaláveis e seguras.',
+        'tags' => ['Framework', 'CSS'],
+        'img' => 'laravel.png',
+    ],
+    [
+        'id' => 18,
+        'title' => 'C - A linguagem mais antiga',
+        'description' => 'C é uma linguagem de programação de propósito geral desenvolvida por Dennis Ritchie na Bell Labs na década de 1970.
+        <br>
+        É conhecida por sua eficiência, portabilidade e capacidade de manipular diretamente o hardware do computador.
+        <br>
+        C é amplamente utilizada no desenvolvimento de sistemas operacionais, software embarcado (arduino/c++) e aplicativos de alto desempenho.',
+        'tags' => ['Linguagem', 'Hardware'],
+        'img' => 'c.png',
+    ],
+    [
+        'id' => 19,
+        'title' => 'Arduino - Contruindo hardware',
+        'description' => 'Arduino é uma plataforma de prototipagem eletrônica de código aberto baseada em hardware e software fáceis de usar.
+        <br><br>
+        É composta por uma placa de circuito com um microcontrolador programável e um ambiente de desenvolvimento integrado (IDE) que permite escrever e carregar código na placa.
+        <br><br>
+        O Arduino é amplamente utilizado por hobbyistas, educadores e profissionais para criar projetos interativos, como robótica, automação residencial e muito mais.',
+        'tags' => ['Hardware', 'IDE'],
+        'img' => 'arduino.jpg',
     ],
 ];
